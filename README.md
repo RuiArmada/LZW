@@ -10,4 +10,4 @@ LZW encryption algorithm for the CD class @ Minho University
 * [Rui Filipe Pimenta Armada](https://github.com/RuiArmada)
 
 ## Grade
-⭐ (12.0/20)
+⭐ (12.0/20) 

@@ -32,4 +32,4 @@ int translate(uint16_t* in,char* out);
 
 long double call_lzwd(char* file);
 
-#endif // __LOAD_H
+#endif // __LOAD_H 

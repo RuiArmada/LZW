@@ -180,10 +180,3 @@ long double call_lzwd(char* file){
 	return nBlocks;
 }
 
-
-
-//int main(){
-//	char file[DIC]="CD-TP21.pdf";
-//	call_lzwd(file);
-//	return 0;
-//}

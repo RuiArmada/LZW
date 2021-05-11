@@ -13,7 +13,7 @@
 long double call_module(char *filename) {
     int r = call_lzwd(filename);
     if (!r)
-      printf("Dados inválidos\n");
+      printf("Invalid Data\n");
     return r;
 }
 
@@ -24,7 +24,7 @@ int main(int argc, char *argv[]) {
 
   int error = 0;
   if (argc > 2 || argc <= 1) {
-    printf("Foram fornecidos argumentos a mais\n");
+    printf("Too many arguments\n");
     error = 1;
   }
   else {
@@ -36,10 +36,9 @@ int main(int argc, char *argv[]) {
 	long double cpu_time_used = ((double) (end - start))*1000 / (CLOCKS_PER_SEC);
 
 	printf("Rui Filipe Pimenta Armada,n A90468, MIEI/CD, 15-fev-2021\n");
-	printf("Número de Blocos : %Le\n",var);   
-	printf("Tempo de execução do modulo em milissegundos: %d\n",cpu_time_used);
-  printf("Debug: Não\n");
-	printf("Ficheiros gerados: %s.lzwd\n",argv[1]);
+	printf("Number of Blocks: %Le\n",var);   
+	printf("Program runtime (millisseconds): %d\n",cpu_time_used);
+	printf("Generated Files: %s.lzwd\n",argv[1]);
 
   return error;
 }
